@@ -1,0 +1,31 @@
+Dataset Legend
+--------------
+
+  id: int
+	Image Identifier
+
+  predominant_stress: int [0,5]
+	Predominant biotic stress on the leaf.
+
+	Possible values:
+	  0 - healthy
+	  1 - miner
+	  2 - rust
+	  3 - phoma
+	  4 - cercospora
+	  5 - undetermined
+
+  miner: bool
+	Indicates whether the leaf has the disease or not.  
+  
+  rust: bool  
+	Indicates whether the leaf has the disease or not.
+	
+  phoma: bool
+	Indicates whether the leaf has the disease or not.
+
+  cercospora: bool
+	Indicates whether the leaf has the disease or not.
+	
+  severity: int [0,4]
+  	Indicates the level of severity of symptoms.
